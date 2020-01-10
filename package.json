@@ -1,0 +1,31 @@
+{
+  "name": "subscribe-for-data-from-mongoose",
+  "version": "1.0.0-beta.1",
+  "description": "subscribe-for-data adapter for usage with mongoose models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarsky-tgz/subscribe-for-data-from-mongoose.git"
+  },
+  "keywords": [
+    "stream",
+    "model",
+    "related",
+    "query",
+    "delay",
+    "fetch",
+    "load",
+    "data",
+    "wait",
+    "fill"
+  ],
+  "author": "Yaroslav Dobzhanskij <merlyn.tgz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yarsky-tgz/subscribe-for-data-from-mongoose/issues"
+  },
+  "homepage": "https://github.com/yarsky-tgz/subscribe-for-data-from-mongoose#readme"
+}
