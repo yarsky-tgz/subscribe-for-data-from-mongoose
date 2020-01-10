@@ -1,6 +1,6 @@
 {
   "name": "subscribe-for-data-from-mongoose",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "subscribe-for-data adapter for usage with mongoose models",
   "main": "index.js",
   "scripts": {
