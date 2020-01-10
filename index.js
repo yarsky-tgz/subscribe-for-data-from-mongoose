@@ -16,7 +16,7 @@ module.exports = {
     let isConditionSetup;
 
     return (target) => {
-      if (additions.useTargetId) Object.assign(additions, {target_id: target.id});
+      if (additions.useTargetId) Object.assign(additions, {target_id: getKey(target)});
       Object.assign(targets, { [getKey(target)]: target });
       const itemCondition = getCondition(target);
 
