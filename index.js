@@ -18,7 +18,7 @@ module.exports = {
       Object.assign(targets, { [getKey(target)]: target });
       const itemCondition = getCondition(target);
 
-      if (defaultValue) if (typeof defaultValue !== 'object') target[targetField] = defaultValue;
+      if (typeof defaultValue !== 'undefined') if (typeof defaultValue !== 'object') target[targetField] = defaultValue;
       else Object.assign(target, defaultValue);
       if (!isConditionSetup) {
         if (typeof itemCondition === 'object') condition.$or = condition.$or || inner;
