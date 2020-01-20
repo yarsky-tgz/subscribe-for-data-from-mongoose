@@ -6,6 +6,8 @@ module.exports = {
     const target = additions.useTargetId && additions.target_id ?
       targets[additions.target_id] :
       targets[extractKey(foreign)];
+
+    if (typeof target === 'undefined') return;
     if (assignData) return assignData(target, foreign);
     if (!isMultiple) target[targetField] = foreign[sourceField];
     else (target[targetField] = target[targetField] || []).push(foreign[sourceField]);
